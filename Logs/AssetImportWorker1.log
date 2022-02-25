@@ -1,0 +1,1236 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.27f1 (e759542391ea) revision 15161684'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 15732 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.27f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Lauren/Documents/GitHub/AI-Project-2022
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+54013
+Successfully changed project path to: C:/Users/Lauren/Documents/GitHub/AI-Project-2022
+C:/Users/Lauren/Documents/GitHub/AI-Project-2022
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 50.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.27f1 (e759542391ea)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Lauren/Documents/GitHub/AI-Project-2022/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Vendor:   
+    VRAM:     3962 MB
+    Driver:   30.0.14.7247
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001125 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 47.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.620 seconds
+Domain Reload Profiling:
+	ReloadAssembly (620ms)
+		BeginReloadAssembly (56ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (496ms)
+			LoadAssemblies (54ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (162ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (200ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (48ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (97ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003387 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 47.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.885 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1892ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1686ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (313ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (1113ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (48ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (763ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2199 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.0 MB.
+System memory in use after: 95.9 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2626.
+Total: 4.575600 ms (FindLiveObjects: 0.246000 ms CreateObjectMapping: 0.095300 ms MarkObjects: 4.081100 ms  DeleteObjects: 0.151400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/Titlemap.unity
+  artifactKey: Guid(02cd7d5ebc587694dbdd37eb32d592d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Titlemap.unity using Guid(02cd7d5ebc587694dbdd37eb32d592d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '011527c4a94f95655245c50b7897c069') in 0.024644 seconds 
+  Import took 0.028869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.759766 seconds.
+  path: Assets/Sprites/Kenney
+  artifactKey: Guid(e84ea0052967c0f4692878366b3e1bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney using Guid(e84ea0052967c0f4692878366b3e1bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8db0e46878ed2cd3994dd937c88b2d7f') in 0.011476 seconds 
+  Import took 0.018885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.840882 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Preview.png
+  artifactKey: Guid(318919b58ff46b64291631d9b5237ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Preview.png using Guid(318919b58ff46b64291631d9b5237ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59247f00b7984fea2778ebbace6dfb13') in 0.158322 seconds 
+  Import took 0.162003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup
+  artifactKey: Guid(5eda0eed4d3f4a649b705e7ae613eb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup using Guid(5eda0eed4d3f4a649b705e7ae613eb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4059e4d6bd069d4ceba17cd0ac909dd') in 0.009279 seconds 
+  Import took 0.013717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Sample.png
+  artifactKey: Guid(9e8acf08f7fba1a42b7feef931a77bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Sample.png using Guid(9e8acf08f7fba1a42b7feef931a77bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c75e672de4c6e11a38ca05085caa0bb3') in 0.029993 seconds 
+  Import took 0.033363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.967854 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Visit Patreon.url
+  artifactKey: Guid(c7c6543a998f0a740b082799bba7c0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Visit Patreon.url using Guid(c7c6543a998f0a740b082799bba7c0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f9c1810e50282ace6539a1c031091eb') in 0.039050 seconds 
+  Import took 0.042680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 517.047273 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/ships.png
+  artifactKey: Guid(c8a3596bda61a44458e09f601979ddde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/ships.png using Guid(c8a3596bda61a44458e09f601979ddde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ec3cabf7b005ff3bacacdad047c1774') in 0.034893 seconds 
+  Import took 0.040220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles.png
+  artifactKey: Guid(25d5e03f966c1c744ac2addf2f1ef0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles.png using Guid(25d5e03f966c1c744ac2addf2f1ef0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f3ab8946347ce6f62861a1c537f3af') in 0.033128 seconds 
+  Import took 0.037096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed.png
+  artifactKey: Guid(297280874202f4f4f81fdfcb30b79d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed.png using Guid(297280874202f4f4f81fdfcb30b79d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea921237cfb402b783711d0a83e149c5') in 0.027312 seconds 
+  Import took 0.030835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/ships_packed.png
+  artifactKey: Guid(2a44ab09f60cf6348bbc4b87cb7cbb9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/ships_packed.png using Guid(2a44ab09f60cf6348bbc4b87cb7cbb9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62009f1d9237c682cdf5611e22d58f3c') in 0.016856 seconds 
+  Import took 0.021335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap
+  artifactKey: Guid(a10c6e988ad38e941bccbecee226c59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap using Guid(a10c6e988ad38e941bccbecee226c59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a676cce2f8b8246753b6b0daa7e841ef') in 0.013369 seconds 
+  Import took 0.018219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.975749 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Ships
+  artifactKey: Guid(95af181ceb3281b41833b4f431a9238c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Ships using Guid(95af181ceb3281b41833b4f431a9238c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81640aa9248a95814d3b637da698abb7') in 0.008578 seconds 
+  Import took 0.012565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 240.413767 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed.png
+  artifactKey: Guid(297280874202f4f4f81fdfcb30b79d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed.png using Guid(297280874202f4f4f81fdfcb30b79d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a49454eeaf95a7d9b53ff82f94d28e') in 0.022396 seconds 
+  Import took 0.028806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.313409 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/ships_packed.png
+  artifactKey: Guid(2a44ab09f60cf6348bbc4b87cb7cbb9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/ships_packed.png using Guid(2a44ab09f60cf6348bbc4b87cb7cbb9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e5f8ba6df4c849bab229861e279a0e') in 0.024425 seconds 
+  Import took 0.027789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.484623 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed.png
+  artifactKey: Guid(297280874202f4f4f81fdfcb30b79d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed.png using Guid(297280874202f4f4f81fdfcb30b79d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c97056b559acb66af00d268f23598b') in 0.019876 seconds 
+  Import took 0.025217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 139.016208 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed.png
+  artifactKey: Guid(297280874202f4f4f81fdfcb30b79d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed.png using Guid(297280874202f4f4f81fdfcb30b79d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '196c03a8afee3acbebc44a487d49fb6a') in 0.513632 seconds 
+  Import took 0.517899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 565.601974 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/New Palette.prefab
+  artifactKey: Guid(5492fde25cd5ea146b55ba148c5802aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/New Palette.prefab using Guid(5492fde25cd5ea146b55ba148c5802aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc9a71a887b1dacaab0d2c4b74353e1') in 0.060543 seconds 
+  Import took 0.066231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 138.463747 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/New Palette.prefab
+  artifactKey: Guid(5492fde25cd5ea146b55ba148c5802aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/New Palette.prefab using Guid(5492fde25cd5ea146b55ba148c5802aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76004008e2434c137c77461e30fb784b') in 0.045001 seconds 
+  Import took 0.051369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_15.asset
+  artifactKey: Guid(31dcbad8028f0554c82446101e0a864a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_15.asset using Guid(31dcbad8028f0554c82446101e0a864a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08aea2a11a8ea902ccd5a7647b908b16') in 0.021774 seconds 
+  Import took 0.025242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_11.asset
+  artifactKey: Guid(478445f627deb7141b76ebaf66bf1cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_11.asset using Guid(478445f627deb7141b76ebaf66bf1cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b7f817cb882611e9e15e71a23af5e9') in 0.014766 seconds 
+  Import took 0.019120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_19.asset
+  artifactKey: Guid(88896c66bc6e105439a7c69c04df17cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_19.asset using Guid(88896c66bc6e105439a7c69c04df17cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3279c7f741d7f0791875d7cedc64d9') in 0.016504 seconds 
+  Import took 0.020617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_21.asset
+  artifactKey: Guid(afe161e467052234fb289ffcbde130e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_21.asset using Guid(afe161e467052234fb289ffcbde130e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9410facaa95f50e4c5f8a3f06b8326') in 0.018538 seconds 
+  Import took 0.022528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_10.asset
+  artifactKey: Guid(6453adc6ca03526498a63c81cd4b1cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_10.asset using Guid(6453adc6ca03526498a63c81cd4b1cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e0cb41e482e0ad3c8149bfe2c4bc786') in 0.015379 seconds 
+  Import took 0.018835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_25.asset
+  artifactKey: Guid(3482e7e4732fc264aac3c12f11adfaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_25.asset using Guid(3482e7e4732fc264aac3c12f11adfaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6655dcf9d8fabed211ee84a59a94b88d') in 0.015344 seconds 
+  Import took 0.019170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_0.asset
+  artifactKey: Guid(0f038576842931140bfb0699cffaa446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_0.asset using Guid(0f038576842931140bfb0699cffaa446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9b935e2c4439b0fd655eadd28577f2d') in 0.013829 seconds 
+  Import took 0.017026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_20.asset
+  artifactKey: Guid(4f64dd3ff0903604cadf9c58d09fa368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_20.asset using Guid(4f64dd3ff0903604cadf9c58d09fa368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ab64badd76e0977fa766a2238b9a71') in 0.015310 seconds 
+  Import took 0.018582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_24.asset
+  artifactKey: Guid(10764800698b1f24297a5fa4e795261f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_24.asset using Guid(10764800698b1f24297a5fa4e795261f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf7aefbe73cc43045942f30b665dae8') in 0.021698 seconds 
+  Import took 0.025581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_7.asset
+  artifactKey: Guid(bf3e1f17211538344a999ff14dfc77c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_7.asset using Guid(bf3e1f17211538344a999ff14dfc77c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb0c4dc46e5e2d9e3ac0d22987158ed') in 0.014422 seconds 
+  Import took 0.017965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_9.asset
+  artifactKey: Guid(679a97af599771446b6b04e2e57a4a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_9.asset using Guid(679a97af599771446b6b04e2e57a4a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7abcb3d31f85b9a36d10b1940122a880') in 0.014914 seconds 
+  Import took 0.018574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_12.asset
+  artifactKey: Guid(ac1b297f73876a74293e27faf8198cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_12.asset using Guid(ac1b297f73876a74293e27faf8198cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0847600d1aa4ce5b4f8be9d9c69797a3') in 0.014643 seconds 
+  Import took 0.018066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_5.asset
+  artifactKey: Guid(ab527aaf68491b145a0248348874244e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_5.asset using Guid(ab527aaf68491b145a0248348874244e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77befe4ffb427d66712c1f9c78e1b0c3') in 0.011244 seconds 
+  Import took 0.014150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_3.asset
+  artifactKey: Guid(e8c1a8e85e3934a4ab79270388eb33b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_3.asset using Guid(e8c1a8e85e3934a4ab79270388eb33b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79268833d9599241d2c2e3afcf18d46c') in 0.012811 seconds 
+  Import took 0.016099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_8.asset
+  artifactKey: Guid(d7d09061cc69fb644a8560e9b298694c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_8.asset using Guid(d7d09061cc69fb644a8560e9b298694c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5879cddb8a0018432c920334fefb6813') in 0.013561 seconds 
+  Import took 0.017366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_31.asset
+  artifactKey: Guid(da0dc016ca7f2b241ab3156abe25fa37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_31.asset using Guid(da0dc016ca7f2b241ab3156abe25fa37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b04941be359313480f572e44e77f69') in 0.013076 seconds 
+  Import took 0.016302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_28.asset
+  artifactKey: Guid(0965cf5ee1640de4c83ccc8b3b4f290c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_28.asset using Guid(0965cf5ee1640de4c83ccc8b3b4f290c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb5677d468a71eba2f8ed3d3144db17') in 0.012424 seconds 
+  Import took 0.015961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_17.asset
+  artifactKey: Guid(290eb01d3a627d745b03ec89e4d0f1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_17.asset using Guid(290eb01d3a627d745b03ec89e4d0f1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c50e6d10f3f81693c1af416c3137fcda') in 0.014952 seconds 
+  Import took 0.018161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_26.asset
+  artifactKey: Guid(26bd0a478c3a6524a8e8b91839175bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_26.asset using Guid(26bd0a478c3a6524a8e8b91839175bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5565a234cb00114c1cf07a2eb5cd5459') in 0.013985 seconds 
+  Import took 0.017375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_29.asset
+  artifactKey: Guid(4951ad259ebc1854f922bf9f06f65b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_29.asset using Guid(4951ad259ebc1854f922bf9f06f65b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec1683b123a5a3a132abf1fdc83519b') in 0.014748 seconds 
+  Import took 0.019279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_13.asset
+  artifactKey: Guid(8cd21e9bd81ef364996ab82c13e0fbd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_13.asset using Guid(8cd21e9bd81ef364996ab82c13e0fbd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea0a3eccbe5cefdc945d826daf164ea') in 0.016648 seconds 
+  Import took 0.020651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_16.asset
+  artifactKey: Guid(25abbf71ffc754048a5e75f88e21c628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_16.asset using Guid(25abbf71ffc754048a5e75f88e21c628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba952c30096d556f0722e1afdaddb9e') in 0.014900 seconds 
+  Import took 0.019431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_18.asset
+  artifactKey: Guid(e3f9dc2475a0f3e4e8b9a7e0e2c2c746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_18.asset using Guid(e3f9dc2475a0f3e4e8b9a7e0e2c2c746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b903665cc26eb1551b4c1de632f8112') in 0.015181 seconds 
+  Import took 0.018572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_4.asset
+  artifactKey: Guid(65a395e6036272b40b6458596db9ad22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_4.asset using Guid(65a395e6036272b40b6458596db9ad22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2800d1cd65fd071b7c1eb277286df49f') in 0.014405 seconds 
+  Import took 0.017958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_14.asset
+  artifactKey: Guid(2539a720d30a30b48b58c941455860ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_14.asset using Guid(2539a720d30a30b48b58c941455860ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c772523ed3d0dc0ac07d65b8ac8b382e') in 0.014961 seconds 
+  Import took 0.018399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_23.asset
+  artifactKey: Guid(a62507eff9d661243a7027355cfb350a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_23.asset using Guid(a62507eff9d661243a7027355cfb350a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '299ed83df74b0f6a8032159c421c82f6') in 0.015182 seconds 
+  Import took 0.020455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_30.asset
+  artifactKey: Guid(ab0f389494008a84dbd0521f41f60e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_30.asset using Guid(ab0f389494008a84dbd0521f41f60e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a4b5c17777bdf6eaa226d854285e28') in 0.013167 seconds 
+  Import took 0.017352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_6.asset
+  artifactKey: Guid(4e7d8d1c9e74022409c5a98db5b61027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_6.asset using Guid(4e7d8d1c9e74022409c5a98db5b61027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc0700057c6969d37f6cf069fb16858') in 0.017680 seconds 
+  Import took 0.021754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_2.asset
+  artifactKey: Guid(96270d5b01f0fd94580aada0a4efc1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_2.asset using Guid(96270d5b01f0fd94580aada0a4efc1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '848bb533d1f205af2c004e108d7bdcf5') in 0.016386 seconds 
+  Import took 0.019779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_22.asset
+  artifactKey: Guid(9fbc2bec29ee8224da46a51de12ec339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_22.asset using Guid(9fbc2bec29ee8224da46a51de12ec339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd01784fb0a017a2ff748c1cbf5ff3032') in 0.014425 seconds 
+  Import took 0.018235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_27.asset
+  artifactKey: Guid(5f87f53512dc9d44387bcc874b485200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_27.asset using Guid(5f87f53512dc9d44387bcc874b485200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef2891607c01c759f05616e22f521b20') in 0.014936 seconds 
+  Import took 0.018793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_1.asset
+  artifactKey: Guid(024d606b93f8bb34fba47d16930556f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_1.asset using Guid(024d606b93f8bb34fba47d16930556f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d971ba98bfd62794ac378b0e3bb74ac') in 0.018153 seconds 
+  Import took 0.023055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 258.578274 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_32.asset
+  artifactKey: Guid(6035c4c9953d080499a81445c9c5494a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_32.asset using Guid(6035c4c9953d080499a81445c9c5494a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e81f705b3b5b741220d62250e6b815') in 0.021741 seconds 
+  Import took 0.025385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_42.asset
+  artifactKey: Guid(24595916cf541b24d908170a388a8fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_42.asset using Guid(24595916cf541b24d908170a388a8fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa725edc5a9ee1e10be2b37099c7400') in 0.016877 seconds 
+  Import took 0.021338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_37.asset
+  artifactKey: Guid(5ec91469ccf29e0429c26e8cc7a51f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_37.asset using Guid(5ec91469ccf29e0429c26e8cc7a51f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cd95d070e949326078029b7f210985e') in 0.014749 seconds 
+  Import took 0.019746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_39.asset
+  artifactKey: Guid(1eff2c4d5ce38ab41bad2dbb52d05992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_39.asset using Guid(1eff2c4d5ce38ab41bad2dbb52d05992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa3131d639466a2274ce73ba7fc1d70') in 0.020598 seconds 
+  Import took 0.024682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_50.asset
+  artifactKey: Guid(b1cb1da0a45b7f448b777139e45800ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_50.asset using Guid(b1cb1da0a45b7f448b777139e45800ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1043f582dec61234cc0d1a09f238d16') in 0.032876 seconds 
+  Import took 0.036761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_44.asset
+  artifactKey: Guid(d80c585b5d51e3946a62d00243e5e53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_44.asset using Guid(d80c585b5d51e3946a62d00243e5e53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca8537f674607648e049eeb6302fb090') in 0.021432 seconds 
+  Import took 0.024964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_47.asset
+  artifactKey: Guid(06428ff1ab0257e41a4af894ffbb996c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_47.asset using Guid(06428ff1ab0257e41a4af894ffbb996c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7405534b13a1c43e6975a7e9b2f73cd5') in 0.013975 seconds 
+  Import took 0.017220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_51.asset
+  artifactKey: Guid(23600141ac33f7445b9549323b42583f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_51.asset using Guid(23600141ac33f7445b9549323b42583f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2efc763b93d2f6b6f75ffebb9691c858') in 0.013551 seconds 
+  Import took 0.016829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_64.asset
+  artifactKey: Guid(68acfdd6520a9bb468e3943ed4ccf81b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_64.asset using Guid(68acfdd6520a9bb468e3943ed4ccf81b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd9618b24fb619b35e75f5ea32f2aaab') in 0.013816 seconds 
+  Import took 0.016993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_65.asset
+  artifactKey: Guid(9087c35ffe6220b4086466bbba5c3d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_65.asset using Guid(9087c35ffe6220b4086466bbba5c3d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d2d3d214dcbd379b5df4259bb648e9c') in 0.012839 seconds 
+  Import took 0.016307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_58.asset
+  artifactKey: Guid(082f6ff6efe2513458f5bc3f1d54dddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_58.asset using Guid(082f6ff6efe2513458f5bc3f1d54dddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365be7c91e61f24369dfc945caf8203f') in 0.013650 seconds 
+  Import took 0.016878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_67.asset
+  artifactKey: Guid(34f4c5d3e15a58d458eb9939f93a5a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_67.asset using Guid(34f4c5d3e15a58d458eb9939f93a5a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e80f3fc1f0597286780c95e49c4fb0d') in 0.014684 seconds 
+  Import took 0.018121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_49.asset
+  artifactKey: Guid(e39b24a67d0016845891fbcd221144d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_49.asset using Guid(e39b24a67d0016845891fbcd221144d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e415e0542fac025dedf7fb44a6d5fef9') in 0.013388 seconds 
+  Import took 0.016810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_61.asset
+  artifactKey: Guid(b2802a2a2696f314d87a3d53561148c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_61.asset using Guid(b2802a2a2696f314d87a3d53561148c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58bda14a6d81ef9073dc01e0caec0ed9') in 0.013413 seconds 
+  Import took 0.017044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_36.asset
+  artifactKey: Guid(6e43ab2ce9ecbe44b954ba9fd693187f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_36.asset using Guid(6e43ab2ce9ecbe44b954ba9fd693187f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db231e1eb757139c8af8cade48ec5b57') in 0.012032 seconds 
+  Import took 0.016232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_62.asset
+  artifactKey: Guid(f701a0219ca99294a89daf67b9b028d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_62.asset using Guid(f701a0219ca99294a89daf67b9b028d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50fd1c632e28d3c2d3a96dedd1c62421') in 0.015696 seconds 
+  Import took 0.020193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_52.asset
+  artifactKey: Guid(606ca91a33f3f7f488721158e6dca2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_52.asset using Guid(606ca91a33f3f7f488721158e6dca2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f24a72be2c36ad79d99859bd6e81427') in 0.017549 seconds 
+  Import took 0.021021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_55.asset
+  artifactKey: Guid(c9d3e448e698b784f9830c021cccb796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_55.asset using Guid(c9d3e448e698b784f9830c021cccb796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a66eeb0c110b121f0d1f8c72e6b368') in 0.014570 seconds 
+  Import took 0.017937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_45.asset
+  artifactKey: Guid(c2a501df8b6922b4b913825ef15cad80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_45.asset using Guid(c2a501df8b6922b4b913825ef15cad80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53602548119aea84b348f8dca5448a51') in 0.014209 seconds 
+  Import took 0.017452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_63.asset
+  artifactKey: Guid(8501850808910e049ae22301f1946080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_63.asset using Guid(8501850808910e049ae22301f1946080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '063e4ab76d0d25a85bf91f1cc2bbe70c') in 0.013619 seconds 
+  Import took 0.017050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_46.asset
+  artifactKey: Guid(0a041f3abe28d994d9f17e4ea057f2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_46.asset using Guid(0a041f3abe28d994d9f17e4ea057f2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '772185cf41e8df0cc66f405ac2ba6713') in 0.013609 seconds 
+  Import took 0.016952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_66.asset
+  artifactKey: Guid(c70f39bc7d960d442a2b1779aa9abb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_66.asset using Guid(c70f39bc7d960d442a2b1779aa9abb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f805ad65ee7e02071ea14fefef3b1294') in 0.013479 seconds 
+  Import took 0.017068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_38.asset
+  artifactKey: Guid(c6668b6344fbcd649b057ff92815331d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_38.asset using Guid(c6668b6344fbcd649b057ff92815331d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b8f7705216ebbcced38e0d1f05578ac') in 0.014035 seconds 
+  Import took 0.017492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_41.asset
+  artifactKey: Guid(3653cc4e3f3e2b84dafe299491175b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_41.asset using Guid(3653cc4e3f3e2b84dafe299491175b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b9cdaa8f6571a5bb4a413ff45c82f6') in 0.013407 seconds 
+  Import took 0.016740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_40.asset
+  artifactKey: Guid(b2a5aa395cd30a94ea4f072ef6bd00f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_40.asset using Guid(b2a5aa395cd30a94ea4f072ef6bd00f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5edb176d26e8d485db9cc03bdbc7524d') in 0.014592 seconds 
+  Import took 0.018137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_60.asset
+  artifactKey: Guid(99be5c4a4379511439782429cf15281a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_60.asset using Guid(99be5c4a4379511439782429cf15281a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545386d0c664123cd55396d38e652a05') in 0.013235 seconds 
+  Import took 0.016762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_53.asset
+  artifactKey: Guid(4d9e70e392eda164788c1af10c2d6472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_53.asset using Guid(4d9e70e392eda164788c1af10c2d6472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ce07e5934f3d09a9d32f39e62fc600') in 0.014829 seconds 
+  Import took 0.018730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_48.asset
+  artifactKey: Guid(da6c64c2eac617047b11438e49a150c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_48.asset using Guid(da6c64c2eac617047b11438e49a150c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e4b9ebd77274274b5d99934eea65ea') in 0.014994 seconds 
+  Import took 0.018852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_56.asset
+  artifactKey: Guid(ed8cf35dc26f7aa49b8f78e46bbea4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_56.asset using Guid(ed8cf35dc26f7aa49b8f78e46bbea4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01b19289d69bcdca7cee084c04fe572e') in 0.012787 seconds 
+  Import took 0.016225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_59.asset
+  artifactKey: Guid(4238b0899f7e0a245aaac80112ab8af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_59.asset using Guid(4238b0899f7e0a245aaac80112ab8af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a27cb1c5007b8cff5dadafd47919d7a') in 0.013164 seconds 
+  Import took 0.017066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_35.asset
+  artifactKey: Guid(0f8a79ef19f901c438c6f897536c7acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_35.asset using Guid(0f8a79ef19f901c438c6f897536c7acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df579dbfe3f43b33b138aa7bb44f0414') in 0.013095 seconds 
+  Import took 0.017386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_43.asset
+  artifactKey: Guid(8d8339941e3110643adc184a2a0e86d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_43.asset using Guid(8d8339941e3110643adc184a2a0e86d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b61862b6ac902c46dd6c4babab73a402') in 0.012989 seconds 
+  Import took 0.016821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_57.asset
+  artifactKey: Guid(9cecf6daed7d1b94eb1cd4861014f4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_57.asset using Guid(9cecf6daed7d1b94eb1cd4861014f4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c7057b867cfb1a2c380c8ef79fbaefc') in 0.013756 seconds 
+  Import took 0.017612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_33.asset
+  artifactKey: Guid(a755c32326a225a45b43c6bf220e512f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_33.asset using Guid(a755c32326a225a45b43c6bf220e512f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a11e164b8bc29b267e55331c38e8ff') in 0.014940 seconds 
+  Import took 0.018081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_73.asset
+  artifactKey: Guid(6061d0b3095227a4fb26d72bbfb14003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_73.asset using Guid(6061d0b3095227a4fb26d72bbfb14003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae66b7f4ea3f5ff2adf4cbe6219196a6') in 0.014049 seconds 
+  Import took 0.017450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_76.asset
+  artifactKey: Guid(a5ce4e8ed127ab448baeb4756ba7a74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_76.asset using Guid(a5ce4e8ed127ab448baeb4756ba7a74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd088c9f4beff6726ca7fab36c1db4546') in 0.013443 seconds 
+  Import took 0.016809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_89.asset
+  artifactKey: Guid(b6ac9d9150d6ac7458d5c97dceb3a7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_89.asset using Guid(b6ac9d9150d6ac7458d5c97dceb3a7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb2f9f25b7ede446a24482bc021f066c') in 0.013888 seconds 
+  Import took 0.017375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_84.asset
+  artifactKey: Guid(bfa4cf20876840748841f90e676ade55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_84.asset using Guid(bfa4cf20876840748841f90e676ade55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f4a3bd7f3010c994aba1f97f5033993') in 0.013494 seconds 
+  Import took 0.017038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_85.asset
+  artifactKey: Guid(b6611c18eb0c81d429f2c009aa4548c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_85.asset using Guid(b6611c18eb0c81d429f2c009aa4548c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4afe64adf393c552ba12da2836f27946') in 0.013523 seconds 
+  Import took 0.016804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_90.asset
+  artifactKey: Guid(1bef190271ac7b2409a5b33c7f72bc72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_90.asset using Guid(1bef190271ac7b2409a5b33c7f72bc72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e57c038bee9288c02c18a0087d4896') in 0.012836 seconds 
+  Import took 0.016025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_86.asset
+  artifactKey: Guid(6809d4a3c3f401049b7063a78fb81388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_86.asset using Guid(6809d4a3c3f401049b7063a78fb81388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb1f6b3bdfecfd2f4f3db47b562ace6') in 0.013751 seconds 
+  Import took 0.017033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_80.asset
+  artifactKey: Guid(ace9da483cbacde40bb1e37e4ef023fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_80.asset using Guid(ace9da483cbacde40bb1e37e4ef023fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae72ba121c1f5e447e0b9cb9a05362c') in 0.014564 seconds 
+  Import took 0.018471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_102.asset
+  artifactKey: Guid(e2e124c3ba20847409eb2f6804b2106a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_102.asset using Guid(e2e124c3ba20847409eb2f6804b2106a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '512ac2044f658df3d9e5c1b6725e4a69') in 0.013255 seconds 
+  Import took 0.016985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_99.asset
+  artifactKey: Guid(b64d904cdf16b4f4f89d1c6fb34bb536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_99.asset using Guid(b64d904cdf16b4f4f89d1c6fb34bb536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb81091e1e022fd0cd7b377d12bccebb') in 0.015691 seconds 
+  Import took 0.019588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_98.asset
+  artifactKey: Guid(ec7d120587c03ba49b89b429d8415a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_98.asset using Guid(ec7d120587c03ba49b89b429d8415a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eacac198ea1dbe8469dd47fae7bd3177') in 0.012530 seconds 
+  Import took 0.016484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_101.asset
+  artifactKey: Guid(2aec73ae660e16049b192d90d2d07388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_101.asset using Guid(2aec73ae660e16049b192d90d2d07388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b547cc28c8aeaed41f738776f44f66f1') in 0.013203 seconds 
+  Import took 0.017662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_87.asset
+  artifactKey: Guid(c75f1c68877db164e98e77cb6147f6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_87.asset using Guid(c75f1c68877db164e98e77cb6147f6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e41d6a06fe503e5b0933ae2fd5912fec') in 0.013002 seconds 
+  Import took 0.017170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_74.asset
+  artifactKey: Guid(e45c539049bff7446b98f048579485ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_74.asset using Guid(e45c539049bff7446b98f048579485ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412b33719a39546637bb5289e93eca98') in 0.012801 seconds 
+  Import took 0.017049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_70.asset
+  artifactKey: Guid(9383ab5d2d900024eaaaa2b65f037694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_70.asset using Guid(9383ab5d2d900024eaaaa2b65f037694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ca302948c32656216c0fc5f4ef6ac2') in 0.012493 seconds 
+  Import took 0.016341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_93.asset
+  artifactKey: Guid(d5d9993b50925b942933efb1e33d4ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_93.asset using Guid(d5d9993b50925b942933efb1e33d4ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ffcc77d3f8e7075d50454737f8d6867') in 0.013770 seconds 
+  Import took 0.018620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_75.asset
+  artifactKey: Guid(6a0d4ce10ee35614294acbf85e26d9af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_75.asset using Guid(6a0d4ce10ee35614294acbf85e26d9af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda6cc6f11fc130851279ea599d327ad') in 0.013727 seconds 
+  Import took 0.017383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_72.asset
+  artifactKey: Guid(76b7ca5ebe3928040ada381ab847c6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_72.asset using Guid(76b7ca5ebe3928040ada381ab847c6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9802e106a4bd16ecfd6f33e545a9cbf1') in 0.014088 seconds 
+  Import took 0.017684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_77.asset
+  artifactKey: Guid(cf5368d01e6932f4193313566ab8b699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_77.asset using Guid(cf5368d01e6932f4193313566ab8b699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a5defe32ba03813104c5641385e3522') in 0.013895 seconds 
+  Import took 0.017220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_96.asset
+  artifactKey: Guid(3741bc4f464c2a5408858c9197b4146e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_96.asset using Guid(3741bc4f464c2a5408858c9197b4146e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8877239e4f37064bb08674b055f663bb') in 0.014003 seconds 
+  Import took 0.017531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_34.asset
+  artifactKey: Guid(13591140ff76a254c8e0b980a6f6632e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_34.asset using Guid(13591140ff76a254c8e0b980a6f6632e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e67db2f5703e696a1b972d9ab4f31e33') in 0.015042 seconds 
+  Import took 0.018771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_95.asset
+  artifactKey: Guid(0a558ab2f40695c4d86b204188013c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_95.asset using Guid(0a558ab2f40695c4d86b204188013c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f37c4bf1e2a804df837b33641d228e') in 0.013685 seconds 
+  Import took 0.019223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_103.asset
+  artifactKey: Guid(f6c29af8086be61478cbdcc3707a783b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_103.asset using Guid(f6c29af8086be61478cbdcc3707a783b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fee80be6b7792c782ff3cae5629bae1') in 0.012618 seconds 
+  Import took 0.016490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_71.asset
+  artifactKey: Guid(ceac8dbbe307330449365905d8375e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_71.asset using Guid(ceac8dbbe307330449365905d8375e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af5c079820a111cf07c97de669cdf69') in 0.011203 seconds 
+  Import took 0.014671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_100.asset
+  artifactKey: Guid(8585c648937cd6543b3c4995145e66b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_100.asset using Guid(8585c648937cd6543b3c4995145e66b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd633ea2df5cbd296a82065f5b475e6') in 0.011544 seconds 
+  Import took 0.015576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_91.asset
+  artifactKey: Guid(958393b4687f5f74db90710b4930f382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_91.asset using Guid(958393b4687f5f74db90710b4930f382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187cd46d48f756528805b6119b43e1de') in 0.013041 seconds 
+  Import took 0.016232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_94.asset
+  artifactKey: Guid(d4fc05a52e4a4124e82dd27377a5fb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_94.asset using Guid(d4fc05a52e4a4124e82dd27377a5fb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f65090fdba5c0694f12b12748a4a5dfd') in 0.013591 seconds 
+  Import took 0.016993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_68.asset
+  artifactKey: Guid(1f56661e6bc6bf142a99c85dd1a16e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_68.asset using Guid(1f56661e6bc6bf142a99c85dd1a16e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a558ae663c015ae92294bc521ba28389') in 0.014834 seconds 
+  Import took 0.019019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_88.asset
+  artifactKey: Guid(c3016777e0808fb49ab315056d465d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_88.asset using Guid(c3016777e0808fb49ab315056d465d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e698a2c4137a30ea3d5b02b9d0c776fa') in 0.011910 seconds 
+  Import took 0.015643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_82.asset
+  artifactKey: Guid(64dba803efae6d043a9457be63b97067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_82.asset using Guid(64dba803efae6d043a9457be63b97067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34959d8f67022894cc73b9f5526ef209') in 0.012945 seconds 
+  Import took 0.017104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_92.asset
+  artifactKey: Guid(f1ade2e04e5ee4c48a25ee5c830b2ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_92.asset using Guid(f1ade2e04e5ee4c48a25ee5c830b2ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da1b2fa8ce2eee30a7541df0976b533') in 0.011111 seconds 
+  Import took 0.014703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_97.asset
+  artifactKey: Guid(03f1bd3f795059c47b7be0dd7e6cb76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_97.asset using Guid(03f1bd3f795059c47b7be0dd7e6cb76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a2041b39817d53d67786aa230e0f66') in 0.013542 seconds 
+  Import took 0.017919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_69.asset
+  artifactKey: Guid(3758ecd7373a7f34faba7833003b4acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_69.asset using Guid(3758ecd7373a7f34faba7833003b4acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eebacf1351ba4e208e18316920d7a9d2') in 0.011425 seconds 
+  Import took 0.015005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_78.asset
+  artifactKey: Guid(410ad23e6809793439513b07375b5d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_78.asset using Guid(410ad23e6809793439513b07375b5d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d51c2cb72923dfc523a41f95f2ae5f5') in 0.015544 seconds 
+  Import took 0.019844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_79.asset
+  artifactKey: Guid(ff41207aaba91be41ace36431c0110ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_79.asset using Guid(ff41207aaba91be41ace36431c0110ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23beca6404e6e5157261da7d3de2991c') in 0.013263 seconds 
+  Import took 0.017619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_83.asset
+  artifactKey: Guid(ab5be723004f1ea40afffe3a15f81c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_83.asset using Guid(ab5be723004f1ea40afffe3a15f81c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39044fea92abea62da214406fb521823') in 0.014915 seconds 
+  Import took 0.019322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_54.asset
+  artifactKey: Guid(e3d15fc9c379fc14eaf68e4b48b04d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_54.asset using Guid(e3d15fc9c379fc14eaf68e4b48b04d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d3eece8b0eb7e6df13d7bb12ff562b8') in 0.013076 seconds 
+  Import took 0.016334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_81.asset
+  artifactKey: Guid(2e7d0e79f1a4a674db306766714dd47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_81.asset using Guid(2e7d0e79f1a4a674db306766714dd47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd134e669518cbe7b20dfb3d5ff681429') in 0.014016 seconds 
+  Import took 0.017471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.079944 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_104.asset
+  artifactKey: Guid(23929f4c804d21242bdb0c769dcc5f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_104.asset using Guid(23929f4c804d21242bdb0c769dcc5f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79c4a650c24404930bf830d57dfa025e') in 0.016117 seconds 
+  Import took 0.020108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000493 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_116.asset
+  artifactKey: Guid(a789bb1e9e77fc9448d33504649a6da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_116.asset using Guid(a789bb1e9e77fc9448d33504649a6da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a393e0f125e46295448286dfd517d4') in 0.016304 seconds 
+  Import took 0.019912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_117.asset
+  artifactKey: Guid(c18990c34db48d24dafa95c4a200de23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_117.asset using Guid(c18990c34db48d24dafa95c4a200de23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e03823153a3156f0bf6f4019206cd64') in 0.015887 seconds 
+  Import took 0.020419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000470 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_118.asset
+  artifactKey: Guid(ba246dbd836d50144aad61d1a5170c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_118.asset using Guid(ba246dbd836d50144aad61d1a5170c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e60bf2dc861c2a875ce4bcbd87bf4900') in 0.013563 seconds 
+  Import took 0.017569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_113.asset
+  artifactKey: Guid(d3c6b7a0238942c40b59959b65865cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_113.asset using Guid(d3c6b7a0238942c40b59959b65865cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fda72ae1947e085bef394b4c3beb216') in 0.013679 seconds 
+  Import took 0.018929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_114.asset
+  artifactKey: Guid(663d659c35e15314389c3984bb5e0cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_114.asset using Guid(663d659c35e15314389c3984bb5e0cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1067dfb36d82715e4592697219acde13') in 0.013544 seconds 
+  Import took 0.017850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_109.asset
+  artifactKey: Guid(9aceeacdc649ef64fb3e6cd3a184463a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_109.asset using Guid(9aceeacdc649ef64fb3e6cd3a184463a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '357f92dd6de18a3f895b952c857b8116') in 0.014659 seconds 
+  Import took 0.018292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_119.asset
+  artifactKey: Guid(5987e5ac78c01614a843b779b89577f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_119.asset using Guid(5987e5ac78c01614a843b779b89577f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc078af075767e9e036c599b57d0e085') in 0.017091 seconds 
+  Import took 0.020679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_108.asset
+  artifactKey: Guid(6fad30b22daadef4999a45ff4a1b6f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_108.asset using Guid(6fad30b22daadef4999a45ff4a1b6f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd581af57b8fe9fa2f5c46c7edfbfc8e') in 0.014883 seconds 
+  Import took 0.018196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_112.asset
+  artifactKey: Guid(d4eb455829399714f8e11825c64289ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_112.asset using Guid(d4eb455829399714f8e11825c64289ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc2431e522ea5ff5ceb4862b92e75b9f') in 0.013685 seconds 
+  Import took 0.017208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_106.asset
+  artifactKey: Guid(d88fef164b4fa9c479b6ba59531c93e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_106.asset using Guid(d88fef164b4fa9c479b6ba59531c93e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd605f57c6ae8908ee972bf326b70abbc') in 0.012122 seconds 
+  Import took 0.016199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_110.asset
+  artifactKey: Guid(68023f5a761ed3941a5412994f2c0c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_110.asset using Guid(68023f5a761ed3941a5412994f2c0c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d0171208900b7b4422c351209ef0907') in 0.018035 seconds 
+  Import took 0.021658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_105.asset
+  artifactKey: Guid(74849d166b169fd43bc0d4bcb30af2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_105.asset using Guid(74849d166b169fd43bc0d4bcb30af2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a0a9bfae35c1a9313463a79a873aa7e') in 0.012658 seconds 
+  Import took 0.017258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_115.asset
+  artifactKey: Guid(700234543162146449dcafc0f9c09e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_115.asset using Guid(700234543162146449dcafc0f9c09e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b87f716331d1c32d646c25a3f59316d8') in 0.012432 seconds 
+  Import took 0.016190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_107.asset
+  artifactKey: Guid(bf6c1e2dffd844d41b239996636caa00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_107.asset using Guid(bf6c1e2dffd844d41b239996636caa00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735c22643f6ff312c24ab1ef55b17cca') in 0.012766 seconds 
+  Import took 0.016011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_111.asset
+  artifactKey: Guid(d31e864a9a79a3747aca6070aa29e872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Kenney/kenney_pixelshmup/Tilemap/tiles_packed_111.asset using Guid(d31e864a9a79a3747aca6070aa29e872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cd1f834e8d0ad44073630ab4b774494') in 0.013710 seconds 
+  Import took 0.017539 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
